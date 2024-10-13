@@ -1,6 +1,6 @@
 import { Client } from "@/Types/intefaces";
 
-const Clients:Client[] = [
+const allClients:Client[] = [
     {
         imageUrl:"/companies/company-1.svg",
         alt:"company-1",
@@ -24,4 +24,4 @@ const Clients:Client[] = [
 ];
 
 
-export default Clients
+export default allClients

@@ -7,7 +7,7 @@ import Button from "./Button";
 const Hero = () => {
     return (
         <div className="relative container">
-            <Image className="absolute -z-50 w-full h-full -top-20 left-0 opacity-10" src="/bg.png" width={1920} height={1080} alt="" />
+            <Image className="absolute -z-50 w-full min-h-screen md:max-h-[670px] md-h-full lg:min-h-screen -top-20 left-0 opacity-10" src="/bg.png" width={1920} height={1080} alt="" />
             <section id="home" className="relative">
                 <figure className="bubble w-96 lg:w-[520px] h-96 bg-indigo-600 top-16 -left-40" />
                 <figure className="bubble w-96 lg:w-[430px] h-96 bg-sky-600 bottom-16 md:bottom-44  -right-20 md:right-20" />

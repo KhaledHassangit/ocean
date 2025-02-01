@@ -7,7 +7,7 @@ export interface Client {
 export interface Feature {
     imageUrl: string;
     title: string;
-    content:string;
+    content: string;
 }
 
 export interface FeatureBlock extends Feature {

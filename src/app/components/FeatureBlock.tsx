@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FC } from "react";
 import Heading from "./Heading";
-import { FeatureBlock } from "@/Types/interfaces";
+import  {FeatureBlock}  from "../../Types/intefaces";
 
 const FeaturedBlock: FC<FeatureBlock> = ({ title, imageUrl, content, isReversed }) => {
     return (
